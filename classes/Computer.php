@@ -19,6 +19,7 @@ public function getComponents()
 public function getDevices()
 {
     return $this->devices;
+    coucou
 }
 
 //Set the value of components
