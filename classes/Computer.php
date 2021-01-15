@@ -6,6 +6,22 @@ class Computer
     protected $components = [];
 
     protected $devices = [];
+
+    public function setComponents($components)
+{
+    $this->components = $components;
+
+    return $this;
+}
+
+    //Get the value of components 
+public function getComponents()
+{
+    return $this->components;
+}
+
+
+
 }
 
 
@@ -19,16 +35,10 @@ public function getComponents()
 public function getDevices()
 {
     return $this->devices;
-    coucou
 }
 
 //Set the value of components
-public function setComponents($components)
-{
-    $this->components = $components;
 
-    return $this;
-}
 
 //Set the value of devices
 public function setDevices($devices)
